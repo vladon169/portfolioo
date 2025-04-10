@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Портфолио — Влад</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #111;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: calc(50% - 20px);
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .project img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .project h3 {
+      margin: 10px 0 5px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #0077ff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .services {
+      background: #f0f8ff;
+      padding: 40px 20px;
+    }
+    .services h2 {
+      color: #111;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .services li {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: #fff;
+    }
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Привет! Я Влад</h1>
+    <p>Создаю сайты, делаю дизайн, перевожу тексты. Работаю как фрилансер</p>
+    <a href="https://t.me/vladfreelancerr" class="btn" target="_blank">Связаться со мной</a>
+  </header>
+
+  <!-- Раздел с услугами -->
+  <section class="services">
+    <h2>Мои услуги</h2>
+    <ul>
+      <li>Создание лендингов и одностраничных сайтов</li>
+      <li>Дизайн сайтов в Canva</li>
+      <li>HTML/CSS верстка</li>
+      <li>Копирайтинг и переводы</li>
+      <li>Разработка адаптивных сайтов</li>
+      <li>SEO-оптимизация сайтов</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Мои работы</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://i.imgur.com/Nn1XEom.jpeg" alt="Сайт маникюра" />
+        <h3>Сайт маникюра "Катерина"</h3>
+        <p>Простой и стильный сайт мастера маникюра из Нойбранденбурга.</p>
+        <a href="https://vladon169.github.io/manicurewebsite/" class="btn" target="_blank">Посмотреть</a>
+      </div>
+      <div class="project">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Сайт кофейни" />
+        <h3>Сайт кофейни "MOOD COFFEE"</h3>
+        <p>Одностраничный сайт с меню, галереей и контактами. Современно и стильно.</p>
+        <a href="https://vladon169.github.io/coffee/" class="btn" target="_blank">Посмотреть</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Связь: <a href="https://t.me/vladfreelancerr" target="_blank">@vladfreelancerr</a></p>
+  </footer>
+
+</body>
+</html>
